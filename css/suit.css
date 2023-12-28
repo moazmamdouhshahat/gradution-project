@@ -1,0 +1,114 @@
+.section1{
+    height: 41vh;
+    width: 100%;
+    /* background-color: rgb(240, 38, 38); */
+}
+/* /////////////////////// start nav ============================================== */
+/* /////////////////////// end nav ============================================== */
+.section1 p{
+    padding-top: 60px;
+    padding-left: 164px;
+}
+
+.section1 p a{  
+    color:rgba(240, 248, 255, 0.692);
+    text-decoration: none;
+}
+
+.section1 .linel{
+    width: 80%;
+    height: 3px;
+    /* background-color: black; */
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 11px;
+}
+.section1 .texr-img{
+    width: 80%;
+    height: 53%;
+    margin: auto;
+    /* background-color: blue; */
+    display: flex;
+}
+.section1 .texr-img .text{
+    width: 80%;
+    height: 100%;
+    /* background-color: greenyellow; */
+}
+.section1 .texr-img .text p{
+    padding: 0px;
+    
+}
+.section1 .texr-img .img{
+    width: 20%;
+    height: 100%;background-color: aqua;
+}
+.section1 .texr-img .img img{
+    width: 100%;
+    height: 100%;
+}
+/* media */
+@media (max-width:400px) {
+
+    .section1{
+        height: auto;
+    }
+    .section1 .texr-img .text {
+        width: 100%;
+        height: 250%;
+        background-color: greenyellow;
+    }
+
+    .section1 .texr-img {
+        width: 91%; 
+    }
+   
+    .section1 .texr-img {
+        display: block;
+    }
+    .section1 .texr-img .img {
+        width: 100%;
+        height: 100%;
+        background-color: aqua;
+    }
+    .section1 p {
+        padding-top: 51px;
+        padding-left: 43px;
+        font-size: 10px;
+    }
+    .section1 .texr-img .text p {
+        padding: 0px;
+        font-size: 16px;
+    }
+
+}
+/* <!-- =======================  end section1=========================  --> */
+/* ================================================== start section 2 ============================================== */
+
+
+.section2{
+ height: 100vh;
+ width: 80%;
+ margin: auto;
+ margin-top: 20px;
+
+}
+
+ .section2 .row .item .card{
+    border-radius: 0px;
+    border: 0px;
+    height: 75%;
+    width: 100%;
+    color: black;
+}
+.section2 .row .item .card .text h4{
+            font-family: 'Courier New', Courier, monospace;
+}
+.section2 .row .item .card img{
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+}
+/* <!-- =======================  end section  2 =========================  --> */
+
+
